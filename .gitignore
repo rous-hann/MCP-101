@@ -1,0 +1,28 @@
+# .gitignore
+
+#Virtual environments
+mcp/
+.mcp/
+
+#Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+/mypy_cache/
+.pytest_cache/
+
+# Environment variables - contains sensitive information
+.env
+.env.*
+
+#IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
