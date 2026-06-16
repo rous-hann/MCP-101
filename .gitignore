@@ -9,8 +9,13 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
 /mypy_cache/
 .pytest_cache/
+
+# Database file
+*.db
+*.sqlite
 
 # Environment variables - contains sensitive information
 .env
@@ -24,5 +29,10 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+#Build artifacts
+dist/
+build/
+*.egg-info/
 
 
+*.cfg
